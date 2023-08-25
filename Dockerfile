@@ -13,5 +13,6 @@ COPY package.json /package.json
 EXPOSE 8000
 
 # Command to run when container starts up
+RUN npm install
 
-CMD npm start
+CMD npm  start
